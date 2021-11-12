@@ -13,16 +13,40 @@
 </head>
 <body>
     <div class="container">
-        <div class="board">
-            <button class="top left crossLf"></button>
-            <button class="top midVertical"></button>
-            <button class="top right crossRg"></button>
-            <button class="midHorizont left"></button>
-            <button class="midHorizont midVertical crossLf crossRg"></button>
-            <button class="midHorizont right"></button>
-            <button class="bottom left crossRg"></button>
-            <button class="bottom midVertical"></button>
-            <button class="bottom right crossLf"></button>
+        <div class="scores_container">
+            <div class="winner">
+                <div class="banner">
+                    <div class="bannerTop">
+                        <div class="hanger"></div>
+                    </div>
+                    <div class="bannerBottom">
+                        <div class="bannerText">
+                            <div class="bannerLogo">
+                                <h2>winner</h2>
+                            </div>
+                            <div class="winnerPlayer">
+                                <h1>0</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Xcontainer"><h1 class="Xscores">Player-X:</h1><h1 class="scoreX">0</h1></div>
+            <div class="Ocontainer"><h1 class="Oscores">Player-0:</h1><h1 class="scoreO">0</h1></div>
+        </div>
+        <div class="board_container">
+            <button disabled class="reset">reset</button>
+            <div class="board">
+                <button class="top left crossLf"></button>
+                <button class="top midVertical"></button>
+                <button class="top right crossRg"></button>
+                <button class="midHorizont left"></button>
+                <button class="midHorizont midVertical crossLf crossRg"></button>
+                <button class="midHorizont right"></button>
+                <button class="bottom left crossRg"></button>
+                <button class="bottom midVertical"></button>
+                <button class="bottom right crossLf"></button>
+            </div>
         </div>
     </div>
     <div class="result">
